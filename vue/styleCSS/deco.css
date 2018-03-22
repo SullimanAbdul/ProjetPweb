@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: lightblue;
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+img{
+	display: block;
+    margin: auto;
+	max-width: 70%;
+    height: auto;
+}
+
+.button{
+	margin-left:10%;
+	padding-bottom:3px;
+	padding-top:3px;
+}
